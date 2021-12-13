@@ -20,12 +20,17 @@ Arguably, the most difficult part of our project was simply finding the data tha
 The team started by looking for datasets available on the internet. However, most of the datasets we found only had a few of the variables we wanted and partial information.
 So, it became clear to us that we needed to combine at least a few datasets to get what we wanted. We started with a table from ChartMasters.org 
 which had information about artists and the number of Spotify streams they have had throughout their careers.
-It did not have all the variables we wanted, but it had a few and there were a few more that we knew we could create from the dataset. 
+It did not have all the variables we wanted, but it had a few and there were a few more that we knew we could create from the dataset. [^1]
+
+[^1]: https://chartmasters.org/most-streamed-artists-ever-on-spotify/
 
 ## Preparing the Data 
 
 With this intial dataset, we read in the table to R programming and then combined that table with two more datasets we found on 
-Kaggle which added informationon how long a particular artist has been around. 
+Kaggle which added informationon how long a particular artist has been around. [^2]
+
+[^2]: https://data.world/kcmillersean/billboard-hot-100-1958-2017
+
 By this point, all we needed was a variable that had information on the artist type. We decided to manually add this variable by editing an Excel file. 
 The column had two factors: solo and group. 
 
